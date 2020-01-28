@@ -1,0 +1,13 @@
+abrirNavegador() {
+
+	ingresar url
+
+}
+Loguiarse() {
+
+	seleccionar log in
+	ingresar username
+	ingresar password
+	clik boton log in
+
+}
