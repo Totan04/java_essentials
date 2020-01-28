@@ -1,0 +1,19 @@
+Crear cancion
+
+*Abrir navegador
+ingresar url
+
+*loguiarse
+seleccionar log in
+ingresar username
+ingresar password
+clik boton log in
+
+*Crear cancion 
+ingresar opcion songs
+seleccionar "Create a new Song"
+Ingresar Title
+Ingresar Length
+Ingresar Date(mm/dd/yyyy)
+Ingresar Lyrics
+click boton "Save Song"
