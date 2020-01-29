@@ -1,0 +1,5 @@
+numero_canciones = 0
+while(numero_canciones es menor que 50) {
+     crearCancion();
+     suma uno a numero_canciones
+}

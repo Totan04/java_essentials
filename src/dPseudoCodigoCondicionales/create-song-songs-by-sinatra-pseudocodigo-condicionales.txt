@@ -1,0 +1,7 @@
+
+Desea crear cancion?
+if(respuesta es Si) {
+     crearCancion();
+} else { // cuando la respuesta es no
+     return Home();
+}
