@@ -7,7 +7,7 @@ public class Botellas_Agua {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int minutos = get_negative_int();
+		int minutos = get_positive_int();
 			    
 		int BotellasxMinuto = 12;
 			    
@@ -16,13 +16,15 @@ public class Botellas_Agua {
 
 	}
 
-	private static int get_negative_int() {
+	private static int get_positive_int() {
 	
 		int n;
 	    do
 	    {
 	        Input.print("Minutos en la ducha: ");
 	        n = Input.get_int();
+	        if (n <= 0)
+	        	Input.print("Valor no valido, intente de nuevo: ");
 	    }
 	    while (n <= 0);
 	    return n;		
